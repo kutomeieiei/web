@@ -776,8 +776,14 @@ header .menu {
 
 
 @media screen and (max-width: 700px) {
+    .slider {
+        margin-top: 0; /* Remove negative margin */
+    }
     .slider .list .item .content h2 {
         font-size: 10px;
+    }
+    header {
+        display: none;
     }
     .slider .list .item .content p {
         font-size: 12px;
@@ -834,4 +840,3 @@ html, body {
    - hide the bottom slider/thumbnail (the "blue slide") on narrow viewports
    - hide other fixed UI elements that conflict on mobile (map button)
 */
-
