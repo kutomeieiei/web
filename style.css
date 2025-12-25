@@ -849,7 +849,7 @@ header .menu {
     }
 
     .arrows {
-        top: 5%;
+        top: 50%;
     }
 
     .slider .list .item .content button {
@@ -887,3 +887,4 @@ html, body {
    - hide the bottom slider/thumbnail (the "blue slide") on narrow viewports
    - hide other fixed UI elements that conflict on mobile (map button)
 */
+
