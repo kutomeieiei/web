@@ -784,7 +784,7 @@ header .menu {
     }
     .thumbnail {
         left: 70%;
-        bottom: 10px;
+        bottom: 50px;
         width: 100%;
         height: 220px;
     }
@@ -834,3 +834,4 @@ html, body {
    - hide the bottom slider/thumbnail (the "blue slide") on narrow viewports
    - hide other fixed UI elements that conflict on mobile (map button)
 */
+
