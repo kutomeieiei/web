@@ -818,6 +818,15 @@ header .menu {
     }
 }
 
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Prevent scrolling */
+    width: 100vw;
+    height: 100vh;
+}
+
+
 
 /* Additional mobile improvements for the Business / Store page
    - make the store grid single-column on small screens
@@ -825,13 +834,3 @@ header .menu {
    - hide the bottom slider/thumbnail (the "blue slide") on narrow viewports
    - hide other fixed UI elements that conflict on mobile (map button)
 */
-
-.slider .list .item.active img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100vh
-    height: 100vh;
-    object-fit: cover;
-    z-index: -1;
-}
